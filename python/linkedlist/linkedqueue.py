@@ -63,12 +63,12 @@ class LinkedQueue():
         return self.size 
 
 # Driver Code
-stack = LinkedQueue()
-stack.enqueue(10)
-stack.enqueue(11)
-print(stack.dequeue())
-print('Length {0}'.format(len(stack)))
-stack.enqueue(12)
-print(stack.dequeue())
-print(stack.dequeue())
-print(stack.dequeue()) # This will raise an exception
+queue = LinkedQueue()
+queue.enqueue(10)
+queue.enqueue(11)
+print(queue.dequeue())
+print('Length {0}'.format(len(queue)))
+queue.enqueue(12)
+print(queue.dequeue())
+print(queue.dequeue())
+print(queue.dequeue()) # This will raise an exception
