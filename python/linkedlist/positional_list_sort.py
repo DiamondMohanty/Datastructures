@@ -2,8 +2,6 @@
 # Author: Diamond Mohanty
 # Date: 29 Jan 2022
 
-
-from sympy import li
 from postionallist import PostionList
 
 list = PostionList()

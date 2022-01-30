@@ -7,15 +7,6 @@ title:  "Positional List in Python"
 
 **Code**
 ```python
-# Postional List Implementation 
-# Author: Diamond Mohanty
-# Date: 29 Jan 2022
-
-from email import header
-
-from pyrsistent import plist
-
-
 class _Node():
     def __init__(self, val) -> None:
         self.val = val
